@@ -16,7 +16,6 @@ response = urllib.urlopen(url + ip)
 data = response.read()
 rkt = json.loads(data)
 print
-
 print (data)
 print
 print ('Done')
